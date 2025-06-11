@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <meta charset="UTF-8">
+		 <title>내부 스타일</title>
+	 </head>
+	 <body> 
+		 <h1 id="txt" type="button" onclick="changecolor()">지금 우리 학교는</h1>
+			<script>
+				 let h1 = document.getElementById("txt");
+				 function changecolor(){
+				 	if (h1.style.color == "blue") {
+						h1.style.color = 'red';
+					}
+					 else
+					{
+						 h1.style.color = "blue";
+					 }
+				 }
+                 
+			</script>
+	 </body>
+</html>
